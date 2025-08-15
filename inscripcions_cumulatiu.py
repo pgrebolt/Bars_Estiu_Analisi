@@ -61,7 +61,7 @@ ax.set_xlabel("Temps (h)")
 ax.set_ylabel("Inscrits (%)")
 plt.legend()
 
-plt.savefig("inscrits_cumulatiu.png", dpi=300, bbox_inches='tight')
+plt.savefig("plots/inscrits_cumulatiu.png", dpi=300, bbox_inches='tight')
 
 plt.show()
 

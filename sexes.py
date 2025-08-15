@@ -100,11 +100,11 @@ ax_as.add_artist(legend2)  # afegim la segona llegenda al gràfic
 # altres opcions
 ax_as.set_xticks(ticks=anys_llista, labels=xticks, rotation = 45)
 ax_as.set_yticks([]) # treiem yticks
-fig_as.savefig('sexes_any_2025.png', dpi=300, bbox_inches='tight')
+fig_as.savefig('plots/sexes_any_2025.png', dpi=300, bbox_inches='tight')
 fig_as.show()
 fig_as.clf()
 
 # Opcions Sexe
 ax_s.set_xticks(ticks=[0, 1], labels=sexes_order, rotation = 0)
 ax_s.legend()
-fig_s.savefig('sexes_2025.png', dpi=300, bbox_inches='tight')
+fig_s.savefig('plots/sexes_2025.png', dpi=300, bbox_inches='tight')

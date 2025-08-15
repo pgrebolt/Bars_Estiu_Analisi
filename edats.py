@@ -66,7 +66,7 @@ ax.set_yticks([]) # treiem yticks
 
 
 plt.legend(loc = 'upper left')
-plt.savefig('edats_2025.png', dpi=300, bbox_inches='tight')
+plt.savefig('plots/edats_2025.png', dpi=300, bbox_inches='tight')
 plt.show()
 
 print("Mitjana d'edat (2025): ", np.mean(any_actual-anys), "anys")
